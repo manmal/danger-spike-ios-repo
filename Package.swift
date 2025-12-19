@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "DangerSpikeLib", targets: ["DangerSpikeLib"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-collections.git", branch: "main")
+        .package(url: "https://github.com/apple/swift-collections.git", from: "1.0.0")
     ],
     targets: [
         .target(name: "DangerSpikeLib", dependencies: [
